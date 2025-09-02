@@ -173,3 +173,38 @@ This project is open source and available under the MIT License.
 ---
 
 **Note**: This extension requires a RunPod API key and credits to function. Face swapping quality depends on the clarity and angle of both source and target faces.
+
+## 🤝 Contributing
+
+Welcome to submit Issues and Pull Requests!
+
+1. Fork this project
+2. Create feature branch: `git checkout -b feature/new-feature`
+3. Commit changes: `git commit -am 'Add new feature'`
+4. Push branch: `git push origin feature/new-feature`
+5. Submit Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## 🙏 Acknowledgments
+
+- [RUNPOD](https://www.runpod.io/) - Provides efficient AI image generation services
+- Chrome Extensions API - Provides rich browser integration features
+
+## 📞 Contact
+
+If you have questions or suggestions, please contact us through:
+
+- Email: marcochen2023@gmail.com
+
+⭐ If this project helps you, please give us a star!
+
+## 🙏 Donate
+- Patreon: [Donate](https://www.patreon.com/c/NovelPD)
+
+🧑‍💻 Developers
+Marco Chen (marcochen2023@gmail.com)
+Ethan Chen
+Sinsin Wang (https://x.com/0xCutecat2003)

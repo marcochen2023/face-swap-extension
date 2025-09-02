@@ -164,4 +164,37 @@ A: 檢查瀏覽器下載設置，確保允許自動下載。
 
 ---
 
-如有問題或建議，歡迎提出Issue或Pull Request。
+## 🤝 貢獻指南
+
+歡迎提交Issue和Pull Request！
+
+1. Fork本專案
+2. 創建功能分支：`git checkout -b feature/new-feature`
+3. 提交更改：`git commit -am 'Add new feature'`
+4. 推送分支：`git push origin feature/new-feature`
+5. 提交Pull Request
+
+## 📄 授權條款
+
+本專案採用MIT授權條款 - 詳見[LICENSE](LICENSE)文件
+
+## 🙏 致謝
+
+- [RUNPOD](https://www.runpod.io/) - 提供高效的AI圖片生成服務
+- Chrome Extensions API - 提供豐富的瀏覽器整合功能
+
+## 📞 聯絡方式
+
+如有問題或建議，請通過以下方式聯絡：
+
+- Email: marcochen2023@gmail.com
+
+⭐ 如果這個專案對您有幫助，請給我們一個星星！
+
+## 🙏 贊助打賞
+- Patreon: [贊助打賞](https://www.patreon.com/c/NovelPD)
+
+🧑‍💻 開發者 (Developers)
+Marco Chen (marcochen2023@gmail.com)
+Ethan Chen
+Sinsin Wang (https://x.com/0xCutecat2003)
