@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Swap Extension 設置</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="icons/logo.png" alt="Face Swap Logo" class="logo">
+            <h1 data-i18n="title">Face Swap Extension 設置</h1>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="zh-tw">繁體中文</option>
+                    <option value="zh-cn">简体中文</option>
+                    <option value="en">English</option>
+                    <option value="ja">日本語</option>
+                    <option value="ko">한국어</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- API 設置區域 -->
+        <div class="section">
+            <h2 data-i18n="api_settings">RunPod API 設置</h2>
+            <div class="form-group">
+                <label for="apiKey" data-i18n="api_key_label">RunPod API Key:</label>
+                <input type="password" id="apiKey" data-i18n-placeholder="api_key_placeholder">
+            </div>
+            <div class="form-group">
+                <label for="endpoint" data-i18n="api_endpoint_label">RunPod API 端點:</label>
+                <input type="text" id="endpoint" placeholder="https://api.runpod.ai/v2/YOUR_ENDPOINT_ID/runsync" value="">
+                <a href="https://www.runpod.io/console/user/settings?ref=le1d7tb4" target="_blank" class="api-key-btn" data-i18n="get_api_key">取得RunPod API Key</a>
+                <a href="https://console.runpod.io/hub/ashleykleynhans/runpod-worker-inswapper?ref=le1d7tb4" target="_blank" class="api-key-btn" data-i18n="setup_api_endpoint">設置API端點</a>
+            </div>
+        </div>
+
+        <!-- 圖片上傳區域 -->
+        <div class="section">
+            <h2 data-i18n="image_settings">換臉圖片設置</h2>
+            <p data-i18n="image_description">請上傳您想要用來換臉的圖片（建議使用清晰的正面照片）</p>
+            
+            <div class="upload-area">
+                <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                <button id="uploadBtn" class="upload-btn" data-i18n="choose_image">選擇圖片</button>
+                <div id="uploadStatus" class="upload-status"></div>
+            </div>
+
+            <!-- 圖片預覽和裁切區域 -->
+            <div id="cropArea" class="crop-area" style="display: none;">
+                <h3 data-i18n="adjust_image">調整圖片</h3>
+                <div class="crop-container">
+                    <canvas id="cropCanvas"></canvas>
+                </div>
+                <div class="crop-controls">
+                    <button id="zoomIn" data-i18n="zoom_in">放大</button>
+                    <button id="zoomOut" data-i18n="zoom_out">縮小</button>
+                    <button id="resetCrop" data-i18n="reset">重置</button>
+                    <button id="saveCrop" class="save-btn" data-i18n="save_image">儲存圖片</button>
+                </div>
+            </div>
+
+            <!-- 已儲存圖片預覽 -->
+            <div id="savedImageArea" class="saved-image-area" style="display: none;">
+                <h3 data-i18n="current_image">目前使用的換臉圖片</h3>
+                <img id="savedImage" class="saved-image"><br>
+                <button id="changeImage" class="change-btn" data-i18n="change_image">更換圖片</button>
+            </div>
+        </div>
+
+        <!-- 儲存按鈕 -->
+        <div class="section">
+            <button id="save" class="save-btn" data-i18n="save_settings">儲存設置</button>
+            <div id="status" class="status"></div>
+        </div>
+
+        <!-- 使用說明 -->
+        <div class="section">
+            <h2 data-i18n="instructions">使用說明</h2>
+            <ol>
+                <li data-i18n="instruction_1">填入您的RunPod API Key和端點URL</li>
+                <li data-i18n="instruction_2">上傳並調整您想要用來換臉的圖片</li>
+                <li data-i18n="instruction_3">點擊「儲存設置」</li>
+                <li data-i18n="instruction_4">在任何網頁的圖片上右鍵點擊，選擇「Face Swap」即可開始換臉</li>
+            </ol>
+        </div>
+
+        <!-- 相關連結 -->
+        <div class="section">
+            <h2 data-i18n="related_links">相關連結</h2>
+            <div class="link-buttons">
+                <a href="https://www.patreon.com/c/NovelPD" target="_blank" class="link-btn sponsor-btn" data-i18n="sponsor">贊助打賞</a>
+                <a href="https://novelpd.online" target="_blank" class="link-btn novel-btn" data-i18n="ai_novel">AI小說生成</a>
+                <a href="https://github.com/marcochen2023/Copy-Style-Picture-style-copy-tool" target="_blank" class="link-btn clone-btn" data-i18n="photo_clone">一鍵相片克隆</a>
+                <a href="https://www.youtube.com/watch?v=8M68FaiZ3I4" target="_blank" class="link-btn intro-btn" data-i18n="clone_intro">相片克隆介紹</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>
