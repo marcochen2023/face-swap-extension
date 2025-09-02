@@ -1,6 +1,6 @@
 # Face Swap Chrome Extension
 
-[English](README.md) | [繁體中文](README.zh-tw.md)
+[English](README.md) | [Traditional Chinese](README.zh-tw.md)
 
 一個使用RunPod Inswapper API進行人臉交換的Chrome擴展插件。
 

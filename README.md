@@ -1,6 +1,6 @@
 # Face Swap Chrome Extension
 
-[English](README.md) | [Traditional Chinese](README.zh-tw.md)
+[English](README.md) | [繁體中文](README.zh-tw.md)
 
 A Chrome extension for face swapping using RunPod Inswapper API.
 
