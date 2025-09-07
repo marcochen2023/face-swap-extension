@@ -28,7 +28,8 @@ const translations = {
         sponsor: '贊助打賞',
         photo_clone: '一鍵相片克隆',
         ai_novel: 'AI小說生成',
-        clone_intro: '相片克隆介紹'
+        clone_intro: '相片克隆介紹',
+        OC_sticker: '一鍵生成超美貼圖'
     },
     'zh-cn': {
         title: 'Face Swap Extension 设置',
@@ -58,7 +59,8 @@ const translations = {
         sponsor: '赞助打赏',
         photo_clone: '一键相片克隆',
         ai_novel: 'AI小说生成',
-        clone_intro: '相片克隆介绍'
+        clone_intro: '相片克隆介绍',
+        OC_sticker: '一键生成超美贴图'
     },
     'en': {
         title: 'Face Swap Extension Settings',
@@ -88,7 +90,8 @@ const translations = {
         sponsor: 'Sponsor/Donate',
         photo_clone: 'One-click Photo Clone',
         ai_novel: 'AI Novel Generation',
-        clone_intro: 'Photo Clone Introduction'
+        clone_intro: 'Photo Clone Introduction',
+        OC_sticker: 'One Click Sticker'
     },
     'ja': {
         title: 'Face Swap Extension 設定',
@@ -118,7 +121,8 @@ const translations = {
         sponsor: 'スポンサー/寄付',
         photo_clone: 'ワンクリック写真クローン',
         ai_novel: 'AI小説生成',
-        clone_intro: '写真クローン紹介'
+        clone_intro: '写真クローン紹介',
+        OC_sticker: 'ワンクリックステッカー'
     },
     'ko': {
         title: 'Face Swap Extension 설정',
@@ -148,7 +152,8 @@ const translations = {
         sponsor: '후원/기부',
         photo_clone: '원클릭 사진 복제',
         ai_novel: 'AI 소설 생성',
-        clone_intro: '사진 복제 소개'
+        clone_intro: '사진 복제 소개',
+        OC_sticker: '원클릭 스티커'
     }
 };
 

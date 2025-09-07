@@ -497,6 +497,34 @@ p {
     margin-bottom: 15px;
 }
 
+/* YouTube 影片樣式 */
+.video-section {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	color: white;
+	text-align: center;
+}
+
+.video-container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%; /* 16:9 aspect ratio */
+	margin: 20px 0;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 10px;
+}
+
 /* 響應式設計 */
 @media (max-width: 768px) {
     .container {
@@ -512,7 +540,15 @@ p {
         padding: 20px;
         font-size: 1.5em;
     }
-    
+	
+	.video-section {
+		padding: 20px 15px;
+	}
+
+	.video-title {
+		font-size: 1.2em;
+	}
+            
     #cropCanvas {
         max-width: 100%;
         height: auto;
